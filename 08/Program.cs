@@ -14,3 +14,8 @@ for(int j=-N;j<=N;j++)
 {
     System.Console.Write($"{j} ");
 }
+/* или так:
+int N=Convert.ToInt32(Console.ReadLine());
+for(int i=-N;i<=N;i++)
+System.Console.Write($"{i} ");
+*/
