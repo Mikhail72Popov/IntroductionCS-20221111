@@ -3,7 +3,7 @@
 
 
 Console.WriteLine("введите размерность массива");
-int n=int.Parse(Console.ReadLine()); 
+int n=Convert.ToInt32(Console.ReadLine());
 int[] RandomIntArray(int n)
    {
       int[] a=new int[n];
