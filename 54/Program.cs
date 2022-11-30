@@ -15,3 +15,15 @@ for (int i=1; i<n; i++)
     Console.WriteLine($"f({i}) = {Fibonacci(i)}");
 }
 
+
+/*
+int n=10;
+int[] a=new int[n];
+a[0]=0;
+a[1]=1;
+for(int i=2;i<n;i++)
+  a[i]=a[i-1]+a[i-2];//рекурентная формула (следующее значение за счет использования предыдущих)
+for(int i=0;i<n;i++)
+    System.Console.Write($"{a[i]} ");
+
+*/
