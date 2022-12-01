@@ -7,17 +7,17 @@ int n=Convert.ToInt32(Console.ReadLine());
 Console.Write("введите количество столбцов массива m=");
 int m=Convert.ToInt32(Console.ReadLine());
 Console.Write("введите минимальное число массива min=");
-double min=Convert.ToDouble(Console.ReadLine()); 
+int min=Convert.ToInt32(Console.ReadLine()); 
 Console.Write("введите максимальное число массива max=");
-double max=Convert.ToDouble(Console.ReadLine());
+int max=Convert.ToInt32(Console.ReadLine());
 
-double[,] Random2DArray(int n,int m,double min=0,double max=10)
+double[,] Random2DArray(int n,int m,int min=0,int max=10)
 {
     double[,] a= new double[n,m];
     Random random=new Random();
     for(int i=0;i<n;i++)
          for(int j=0;j<m;j++)
-        a[i,j]=random.Next(min,max+1);
+        a[i,j]=Math.Round(random.NextDouble()*random.Next(min,max),2);
     return a;
 }
 
