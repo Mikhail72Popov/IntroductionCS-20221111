@@ -11,7 +11,7 @@ int min=Convert.ToInt32(Console.ReadLine());
 Console.Write("введите максимальное число массива max=");
 int max=Convert.ToInt32(Console.ReadLine());
 
-double[,] Random2DArray(int n,int m,int min=0,int max=10)
+double[,] Random2DArray(int n,int m,int min,int max)
 {
     double[,] a= new double[n,m];
     Random random=new Random();
