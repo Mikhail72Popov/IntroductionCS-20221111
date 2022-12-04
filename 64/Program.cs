@@ -1,5 +1,6 @@
-﻿// 62. В двумерном массиве n×m заменить четные элементы на противоположные
-// по значению (a[i,j]=-a[i,j])
+﻿// 64. В двумерном массиве заменить элементы,
+// у которых оба индекса чётные на их квадраты по значению.
+
 
 Console.Write("введите количество строк массива n=");
 int n=Convert.ToInt32(Console.ReadLine());
@@ -34,17 +35,16 @@ System.Console.WriteLine("Первоначальный массив: ");
 Print2DArray(a);
 System.Console.WriteLine("Изменённый массив: ");
 
-
-// отбор четных чисел и замена на противоположное значение
-void EvenNumber(int[,] a)
+// замена элементов, с чётными индексами,  на их квадраты.
+void IndexSelection(int[,] a)
 {
     for(int j=0;j<a.GetLength(1);j++)    
-        for(int i=0;i<a.GetLength(0);i++)
-             if (a[i,j]%2==0)
-             {
-                a[i,j]=-a[i,j];                      
-              }
+      for(int i=0;i<a.GetLength(0);i++)
+        if (i%2==0 && j%2==0 && i>0 && j>0)
+          {
+            a[i,j]=a[i,j]*a[i,j];                      
+          }
 }
 
-EvenNumber(a);
+IndexSelection(a);
 Print2DArray(a);
