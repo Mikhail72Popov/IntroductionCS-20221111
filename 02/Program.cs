@@ -12,3 +12,7 @@ if (b*b==a)
 {
      System.Console.WriteLine($"{a} является квадратом {b}");
 }
+if (a*a!=b && b*b!=a)
+{
+    System.Console.WriteLine($"{a} и {b} не являются квадратами друг друга");
+}
