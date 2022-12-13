@@ -1,0 +1,15 @@
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/bin/Debug/net6.0/93
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/bin/Debug/net6.0/93.deps.json
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/bin/Debug/net6.0/93.runtimeconfig.json
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/bin/Debug/net6.0/93.dll
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/bin/Debug/net6.0/ref/93.dll
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/bin/Debug/net6.0/93.pdb
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/obj/Debug/net6.0/93.csproj.AssemblyReference.cache
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/obj/Debug/net6.0/93.GeneratedMSBuildEditorConfig.editorconfig
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/obj/Debug/net6.0/93.AssemblyInfoInputs.cache
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/obj/Debug/net6.0/93.AssemblyInfo.cs
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/obj/Debug/net6.0/93.csproj.CoreCompileInputs.cache
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/obj/Debug/net6.0/93.dll
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/obj/Debug/net6.0/ref/93.dll
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/obj/Debug/net6.0/93.pdb
+/home/mikhail/Проекты/MAP_2/IntroductionCS-20221111/93/obj/Debug/net6.0/93.genruntimeconfig.cache
