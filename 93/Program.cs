@@ -69,6 +69,3 @@ void Mult(int[,] a, int[,] b)
     } 
 System.Console.WriteLine("Произведение: ");
 Mult(a, b);
-
-
-
